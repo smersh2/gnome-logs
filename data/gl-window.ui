@@ -1,7 +1,7 @@
 <interface domain="gnome-logs">
     <template class="GlWindow" parent="GtkApplicationWindow">
-        <property name="height-request">780</property>
-        <property name="width-request">1200</property>
+        <property name="default_height">580</property>
+        <property name="default_width">800</property>
         <signal name="key-press-event" handler="on_gl_window_key_press_event"/>
         <child type="titlebar">
             <object class="GlEventToolbar" id="event_toolbar">
